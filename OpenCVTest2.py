@@ -33,7 +33,9 @@ if __name__ == '__main__' :
     #This is first change
     #video = cv2.VideoCapture(0)
     #This is another change
-    video = cv2.VideoCapture(1)
+    #video = cv2.VideoCapture(1)
+     #This is another change
+    video = cv2.VideoCapture(2)
 
     if not video.isOpened():
         print("Cannot open camera")

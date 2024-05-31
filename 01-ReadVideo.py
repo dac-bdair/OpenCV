@@ -1,5 +1,6 @@
 import cv2
 
+#Some new comments
 frameWidth = 640
 frameHeight = 480
 
