@@ -29,8 +29,8 @@ if __name__ == '__main__' :
         tracker = cv2.TrackerCSRT_create()
 
     # Read video
-    #video = cv2.VideoCapture("videos/chaplin.mp4")
-    video = cv2.VideoCapture(0)
+    video = cv2.VideoCapture("videos/chaplin.mp4")
+    #video = cv2.VideoCapture(0)
 
     if not video.isOpened():
         print("Cannot open camera")
