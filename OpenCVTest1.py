@@ -28,8 +28,6 @@ tracker = cv2.TrackerCSRT_create() #slower but more accurate
 
 ########################################################
 
-#No change
-
 def drawBox(img, bbox):
     x, y, w, h = int(bbox[0]), int(bbox[1]), int(bbox[2]), int(bbox[3])
     cv2.rectangle(img,(x, y),((x+w),(y+h)),(0,255,255),2,1)
@@ -98,5 +96,5 @@ while True:
     if cv2.waitKey(1) & 0xff == ord('q'):
         print("Exiting Application!!")
         break
-
+#No Comment
     
