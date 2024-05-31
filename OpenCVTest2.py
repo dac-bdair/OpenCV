@@ -29,13 +29,8 @@ if __name__ == '__main__' :
         tracker = cv2.TrackerCSRT_create()
 
     # Read video
-    video = cv2.VideoCapture("videos/chaplin.mp4")
-    #This is first change
-    #video = cv2.VideoCapture(0)
-    #This is another change
-    #video = cv2.VideoCapture(1)
-     #This is another change
-    video = cv2.VideoCapture(2)
+    #video = cv2.VideoCapture("videos/chaplin.mp4")
+    video = cv2.VideoCapture(0)
 
     if not video.isOpened():
         print("Cannot open camera")
@@ -98,3 +93,5 @@ if __name__ == '__main__' :
         # Exit if ESC pressed
         k = cv2.waitKey(1) & 0xff
         if k == 27 : break
+
+#No Comment

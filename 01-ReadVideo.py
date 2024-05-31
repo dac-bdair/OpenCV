@@ -1,6 +1,5 @@
 import cv2
 
-#Some new comments
 frameWidth = 640
 frameHeight = 480
 
@@ -14,3 +13,5 @@ while True:
     
     if cv2.waitKey(1) and 0xFF == ord('q'):
          break
+
+#No Comment
