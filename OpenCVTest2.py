@@ -30,7 +30,10 @@ if __name__ == '__main__' :
 
     # Read video
     video = cv2.VideoCapture("videos/chaplin.mp4")
+    #This is first change
     #video = cv2.VideoCapture(0)
+    #This is another change
+    video = cv2.VideoCapture(1)
 
     if not video.isOpened():
         print("Cannot open camera")
